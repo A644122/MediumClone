@@ -1,0 +1,296 @@
+/* STYLE START /////////////////////////////////// */
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contain{
+    overflow: hidden;
+    background-color:rgb(246, 182, 6);
+    cursor: pointer;
+    border: 1px solid black;
+}
+h2{
+    color: rgb(15, 14, 14);
+    width: 80px;
+margin-right:180px;
+font-weight: 900;
+/* text-transform: uppercase; */
+
+}
+/* nav h2:hover{
+    color: #1ED760;
+    text-transform: uppercase;
+} */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+    /* background-color: #000; */
+    background-color:rgb(246, 182, 6);
+    cursor: pointer;
+    position: sticky;
+}
+.nav_links a {
+    text-decoration: none;
+    color: rgb(45, 41, 41);
+    font-weight: 200;
+    padding: .5rem 1.5rem;
+    font-size: .95rem;
+}
+nav{
+    width:100%;
+    position:fixed;
+}
+.btn1{
+    width: 180px;
+    height: 40px;
+    font-size:23px;
+    color: #fff;
+    /* position:relative; */
+    /* right:-110px; */
+    /* bottom: 30px; */
+    border: 1px solid rgb(9, 2, 2);
+    border-radius: 34px 34px 34px 34px;
+    cursor: pointer;
+    background-color: black;
+
+}
+.btn1:hover{
+    color: #fff;
+}
+.line {
+    display: inline-block;
+    width: 1px;
+    height: 1rem;
+    background-color: #fff;
+}
+/* a:hover,
+a:hover i {
+    color: #1ED760;
+} */
+.som{
+    display:inline-block;
+    align-items: center;
+    
+
+}
+.som h3{
+    margin:80px 150px;
+    font-weight: 800;
+    font-size: 5rem;
+    color: rgb(18, 15, 15);
+
+}
+.som p{
+    font-weight: 400;
+    font-size: 47px;
+    margin: 60px  115px;
+    color: rgb(4, 4, 4);
+    
+}
+.som #btn{
+    color: #fff;
+    width: 180px;
+    height: 40px;
+    font-size:23px;
+    position:relative;
+    right:-110px;
+    bottom: 30px;
+    border: 1px solid black;
+    border-radius: 34px 34px 34px 34px;
+    background-color: black;
+    cursor: pointer;
+}
+#btn{
+    position:sticky;
+}
+/* trending on the medium */
+.firstcontain{
+  
+    display: flex;
+    flex-wrap:wrap;
+    /* border: 1px solid brown; */
+    justify-content:space-around; 
+    /* gap:100px; */
+    /* margin:25px 50px; */
+    margin-top:25px;
+    margin-bottom:150px;
+    row-gap:15px;
+    column-gap:80px;
+    line-height: 1.3rem;
+    
+}
+.box{
+    /* width:230px;
+    height:170px; */
+     width:200px;
+    height:170px;    
+    margin:21px;
+    
+     /* border:2px solid green; */
+}
+ /* h3.dear{
+     font-size:1.1rem; 
+    font-weight:400;
+    color:#000;
+} */
+h3{
+     /* color:#000; */
+     font-size: 1.0rem;
+font-weight: 900;   
+}
+
+
+.zoo{
+    margin:7px;
+    font-weight:400;
+}
+#trending{
+    
+margin-top:15px;
+margin-left: 45px;
+    font-weight:500;
+}
+.box,.zoo,h3{
+    cursor: pointer;
+}
+ 
+/* SECTION STYLE CSS */
+#see{
+    display: grid;
+    /* grid-template-rows:repeat(200px,1fr);
+    grid-template-columns: repeat(200px,1fr); */
+    
+}
+/* STYLE.CSSSS END................////// */
+
+
+
+#grid-contain{
+    display:grid;
+   
+    grid-template-columns:repeat(2, 1fr);
+    grid-auto-rows:90px;
+    gap: 4em;
+    margin-bottom: 130px;
+   
+}
+.bigimg ,img{
+    
+    
+    width: 30%;
+    height:160%
+    
+    
+}
+.bbb{
+    padding:-7%;
+    width: 310px;
+    
+    margin-left:10px;
+}
+.iaf{
+    margin-left: -35%;
+}
+
+
+.anchor{
+    
+    display: flex;
+    flex-wrap: wrap;
+    position:absolute;
+    margin-top:10%;
+    top: 245%;
+ left:64%;  
+bottom:50% 
+
+     
+}
+.anchor a{
+    text-decoration: none;
+    margin:6px 0px 0px 6px;
+    padding:6px;
+    
+    
+}
+
+
+ #position{
+    
+    display:flex; 
+    flex-wrap: wrap;
+    position:absolute;
+    top: 229%;
+    left:65%;
+    margin-right:4%;
+    bottom:70% ;
+    height:max-content;
+    border-top: 2px solid gray;
+    
+}
+.sticky{
+    position: fixed;
+}
+#position li{
+list-style-type: none;
+margin: 10px auto;
+
+padding:6px;
+border: 1px solid gray;
+background-color: azure;
+border-radius: 5px 5px 5px 5px;
+
+} 
+#para{
+    font-size:1rem;
+
+}
+/* .footerpart{
+    display:inline-block;
+    flex-direction: column;
+    
+} */
+.footerpart h5{
+    margin-top:150px;
+    color: white;
+    display:flex;
+    font-size:large;
+    margin-left:20px;
+}
+.ulist li{
+    color:white;
+    list-style-type:none;
+    display:inline-block;
+    font-size:15px;
+    margin:12px;
+    
+    }
+    h5{
+        font-weight: 600;
+    }
+     li:hover{
+        text-decoration:
+         underline;
+         cursor: pointer;
+
+    }
+    Footer{
+        background-color: black;
+    }
+    .tag{
+        font-size:20px;
+        margin-left:10px;
+    }
+    #para p{
+        margin-left: 28px;
+        font-size: 1.2rem;
+        color: #fff;
+       
+    }
+    .border{
+       border-bottom: 1px solid white; 
+    }
+
